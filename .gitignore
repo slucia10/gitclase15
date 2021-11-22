@@ -1,0 +1,7 @@
+#Dentro de Gitignore esta mi lista de objetos a ignorar
+
+#Ignorar subcarpeta
+scss/bs_scss
+
+# ignorar todos los archivos dentro de esta carpeta 
+scss/bs_scss/*.bs_scss
