@@ -1,0 +1,17 @@
+
+//HEADER INDEX 
+.header{
+    background-color: #cff7db;
+    box-shadow: 1px 2px 11px -2px grey;
+    position: sticky;
+    
+
+    &__logo {
+        border-radius: 100%;
+        margin-left: 30px;
+    }
+}
+ .navBar {
+     padding: 2px;
+     font-size: 18px;
+ }

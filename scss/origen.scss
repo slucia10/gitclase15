@@ -1,0 +1,223 @@
+// IMPORTACIONES
+// importar estilos de bs a scss
+@import "bs_scss/bootstrap.scss";
+@import "responsive";
+@import "titulos";
+@import "header";
+
+
+//VARIABLES
+$verde:#748c74;
+$rosa: rgb(231, 118, 118);
+$ancho:250px;
+$alto:250px;
+
+//MIXIN 
+@mixin medidas ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+
+//ELEMENTOS
+ 
+
+/*formulario CUENTA*/
+
+.formulario {
+   display:-webkit-box;
+
+    &__imgFormulario {
+     float: left;
+       margin: 30px;
+       width: 440px;
+    }
+}
+
+/*formulario CONTACTO*/
+.mainContacto {
+    width: 100%;
+    background-size: cover;
+}
+.form {
+    width: 28%;
+    margin: 0 auto;
+    background: url(/imagenes/imagen-39.png) no-repeat 0px 0px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 30px 67px;
+    border-top: 3px solid grey;
+    box-shadow: 0px 25px 44px rgba(0, 0, 0, 0.72);
+}
+.contacto {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    color:$verde;
+}
+form p {
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 0.3px;
+}
+
+
+/* FOOTER*/
+.footer {
+    background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
+    background-color: #2a2e2a;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &__img {
+        padding: 1px;
+    }
+
+    &__h5 {
+        color: white;
+        font-size: 1rem;
+    }
+
+    &__p {
+        color: white;
+    }
+}
+.botonCarouselDeco {
+    padding-inline-end: 5px 10px;
+}
+
+.caja {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    &__parrafo {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+
+
+/* Iconos centrales Index */
+.iconos {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    &__UnoIndex {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    &__img {
+        align-items: center;
+        padding-left: 2rem;
+    }
+
+    &__p {
+       
+        font-size: 18px;
+    }
+}
+
+/* imagenes Deco */
+
+.contenedorImg {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &__imgIndex {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        padding: 20px;
+        @include medidas (250px, 250px)
+    }
+
+    &__bordes {
+        border: 1px solid rgb(68, 160, 68);
+        
+    }
+}
+
+/* imagenes PRODUCTOS */
+
+.contenedorProductos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    &__imgProductos {
+        width: 286px;
+        height: 300px;
+    }
+    &__borde {
+       
+        border: 1px solid rgb(50, 146, 50);
+        box-shadow: 2px 2px 3px 6px rgba(168, 165, 165, 0.2);
+        overflow: auto;
+        
+    }
+    &__p {
+        font-size: 30px;
+        font-style: italic;
+        font-family: roboto condesed;
+    }
+}
+
+.margenDeco {
+    padding-bottom: 60px;
+}
+
+.margen {
+    margin: 30px;
+}
+
+
+/* COMO COMPRAR */
+ol {
+    color: black;
+    margin-left: 20px;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    list-style-type: decimal;
+    font-size: 20px;
+}
+
+/* GRIDS por AREAS */
+.grid-areas {
+    display: grid;
+    grid-template-areas:
+        "menu menu menu"
+        "cabeza cabeza cabeza"
+        "imagenes imagenes imagenes"
+        "footer footer footer"
+    ;
+    grid-template-columns: 10% auto 15%;
+    grid-template-rows: 2fr 4fr 4fr 1fr;
+    grid-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+
+/* nombre mis areas */
+header {
+    grid-area: cabeza;
+}
+
+nav {
+    grid-area: menu;
+}
+
+#imagenes {
+    grid-area: imagenes;
+
+}
+
+/* fin nombre areas */
