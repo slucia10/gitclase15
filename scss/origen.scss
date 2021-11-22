@@ -19,18 +19,14 @@ $alto:250px;
 }
 
 
-//ELEMENTOS
- 
-
 /*formulario CUENTA*/
 
 .formulario {
-   display:-webkit-box;
+    display: -webkit-box;
 
     &__imgFormulario {
-     float: left;
-       margin: 30px;
-       width: 440px;
+        float: left;
+        width: 440px;
     }
 }
 
@@ -39,6 +35,7 @@ $alto:250px;
     width: 100%;
     background-size: cover;
 }
+
 .form {
     width: 28%;
     margin: 0 auto;
@@ -49,6 +46,7 @@ $alto:250px;
     border-top: 3px solid grey;
     box-shadow: 0px 25px 44px rgba(0, 0, 0, 0.72);
 }
+
 .contacto {
     text-align: center;
     text-transform: uppercase;
@@ -56,8 +54,9 @@ $alto:250px;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 35px;
-    color:$verde;
+    color: $verde;
 }
+
 form p {
     font-size: 15px;
     margin-top: 20px;
@@ -86,6 +85,7 @@ form p {
         color: white;
     }
 }
+
 .botonCarouselDeco {
     padding-inline-end: 5px 10px;
 }
@@ -121,7 +121,7 @@ form p {
     }
 
     &__p {
-       
+
         font-size: 18px;
     }
 }
@@ -142,7 +142,7 @@ form p {
 
     &__bordes {
         border: 1px solid rgb(68, 160, 68);
-        
+
     }
 }
 
@@ -151,18 +151,20 @@ form p {
 .contenedorProductos {
     padding-top: 20px;
     padding-bottom: 20px;
-    
+
     &__imgProductos {
         width: 286px;
         height: 300px;
     }
+
     &__borde {
-       
+
         border: 1px solid rgb(50, 146, 50);
         box-shadow: 2px 2px 3px 6px rgba(168, 165, 165, 0.2);
         overflow: auto;
-        
+
     }
+
     &__p {
         font-size: 30px;
         font-style: italic;

@@ -7811,7 +7811,7 @@ textarea.form-control-lg {
 
 /* mobile */
 @media only screen and (max-width: 480px) {
-  .titulo {
+  h1.titulo, .titulo.h1 {
     font-size: 3rem; }
   @keyframes aparecer {
     0% {
@@ -7969,7 +7969,6 @@ h4, .h4 {
   display: -webkit-box; }
   .formulario__imgFormulario {
     float: left;
-    margin: 30px;
     width: 440px; }
 
 /*formulario CONTACTO*/
