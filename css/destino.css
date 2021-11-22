@@ -8017,9 +8017,6 @@ form p {
   .footer__p {
     color: white; }
 
-.botonCarouselDeco {
-  padding-inline-end: 5px 10px; }
-
 .caja {
   padding-top: 1rem;
   padding-bottom: 1rem; }
@@ -8056,6 +8053,9 @@ form p {
     height: 250px; }
   .contenedorImg__bordes {
     border: 1px solid #44a044; }
+
+.botonCarouselDeco {
+  padding-inline-end: 5px 10px; }
 
 /* imagenes PRODUCTOS */
 .contenedorProductos {

@@ -12272,11 +12272,6 @@ form p {
   color: white;
 }
 
-.botonCarouselDeco {
-  -webkit-padding-end: 5px 10px;
-          padding-inline-end: 5px 10px;
-}
-
 .caja {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -12340,6 +12335,11 @@ form p {
 
 .contenedorImg__bordes {
   border: 1px solid #44a044;
+}
+
+.botonCarouselDeco {
+  -webkit-padding-end: 5px 10px;
+          padding-inline-end: 5px 10px;
 }
 
 /* imagenes PRODUCTOS */
