@@ -7809,61 +7809,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-/* mobile */
-@media only screen and (max-width: 480px) {
-  h1.titulo, .titulo.h1 {
-    font-size: 3rem; }
-  @keyframes aparecer {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  .footer {
-    background-image: linear-gradient(500deg, #949794, #030303);
-    background-color: #2a2e2a;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px; }
-    .footer__img {
-      padding: 1px; }
-    .footer__h5 {
-      color: white;
-      font-size: 0.5rem; }
-    .footer__p {
-      color: white; } }
-
-/* Tablet */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  .footer {
-    background-image: linear-gradient(500deg, #949794, #030303);
-    background-color: #2a2e2a;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px; }
-    .footer__img {
-      padding: 1px; }
-    .footer__h5 {
-      color: white;
-      font-size: 0.5rem; }
-    .footer__p {
-      color: white; } }
-
-/* Notebook */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .footer {
-    background-image: linear-gradient(500deg, #949794, #030303);
-    background-color: #2a2e2a;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px; }
-    .footer__img {
-      padding: 1px; }
-    .footer__h5 {
-      color: white;
-      font-size: 0.5rem; }
-    .footer__p {
-      color: white; } }
-
 /*titulos secciones*/
 .titulo-productos {
   text-align: center;
@@ -7963,6 +7908,63 @@ h4, .h4 {
 .navBar {
   padding: 2px;
   font-size: 18px; }
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+  h1.titulo, .titulo.h1 {
+    font-size: 3rem; }
+  @keyframes aparecer {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  .footer {
+    background-image: linear-gradient(500deg, #949794, #030303);
+    background-color: #2a2e2a;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .footer__img {
+      padding: 1px; }
+    .footer__h5 {
+      color: white;
+      font-size: 0.5rem; }
+    .footer__p {
+      color: white; }
+  .form {
+    width: 100% !important; } }
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .footer {
+    background-image: linear-gradient(500deg, #949794, #030303);
+    background-color: #2a2e2a;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .footer__img {
+      padding: 1px; }
+    .footer__h5 {
+      color: white;
+      font-size: 0.5rem; }
+    .footer__p {
+      color: white; } }
+
+/* Notebook */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .footer {
+    background-image: linear-gradient(500deg, #949794, #030303);
+    background-color: #2a2e2a;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .footer__img {
+      padding: 1px; }
+    .footer__h5 {
+      color: white;
+      font-size: 0.5rem; }
+    .footer__p {
+      color: white; } }
 
 /*formulario CUENTA*/
 .formulario {
