@@ -11,6 +11,7 @@ $rosa: rgb(231, 118, 118);
     padding-top: 30px;
     padding-bottom: 30px;
     color: $verde;
+    font-family: roboto condesed, monospace;
 
 }
 .tituloCarrito {
@@ -20,6 +21,7 @@ $rosa: rgb(231, 118, 118);
     padding-top: 30px;
     padding-bottom: 30px;
     color: $verde;
+    font-family: roboto condesed, monospace;
 }
 .tituloComoComprar {
     text-align: center;
@@ -28,6 +30,7 @@ $rosa: rgb(231, 118, 118);
     padding-top: 30px;
     padding-bottom: 30px;
     color: $verde;
+    font-family: roboto condesed, monospace;
 }
 .tituloContacto {
     text-align: center;
@@ -36,13 +39,14 @@ $rosa: rgb(231, 118, 118);
     padding-top: 30px;
     padding-bottom: 30px;
     color: $verde;
+    font-family: roboto condesed, monospace;
 }
 .titulo {
     animation-duration: 3s;
     animation-name: aparecer;
     text-align: center;
     margin-top: 20px;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-style: oblique;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -59,7 +63,10 @@ $rosa: rgb(231, 118, 118);
     }
 }
 /*fin titulos secciones*/
-
+h1 {
+    font-family: roboto condesed;
+    letter-spacing: 1px;
+}
 
 h2 {
     color: $verde;
@@ -67,6 +74,9 @@ h2 {
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 20px;
+    font-family: roboto condesed;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
 
 }
 
@@ -77,6 +87,8 @@ h3 {
     margin-top: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: roboto condesed, monospace;
+    font-size: 2.2rem;
 
 }
 

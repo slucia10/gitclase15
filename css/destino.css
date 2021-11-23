@@ -7816,7 +7816,8 @@ textarea.form-control-lg {
   font-size: 2rem;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #748c74; }
+  color: #748c74;
+  font-family: roboto condesed, monospace; }
 
 .tituloCarrito {
   text-align: center;
@@ -7824,7 +7825,8 @@ textarea.form-control-lg {
   font-size: 2rem;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #748c74; }
+  color: #748c74;
+  font-family: roboto condesed, monospace; }
 
 .tituloComoComprar {
   text-align: center;
@@ -7832,7 +7834,8 @@ textarea.form-control-lg {
   font-size: 2rem;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #748c74; }
+  color: #748c74;
+  font-family: roboto condesed, monospace; }
 
 .tituloContacto {
   text-align: center;
@@ -7840,14 +7843,15 @@ textarea.form-control-lg {
   font-size: 2rem;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #748c74; }
+  color: #748c74;
+  font-family: roboto condesed, monospace; }
 
 .titulo {
   animation-duration: 3s;
   animation-name: aparecer;
   text-align: center;
   margin-top: 20px;
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-style: oblique;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -7860,12 +7864,19 @@ textarea.form-control-lg {
     opacity: 1; } }
 
 /*fin titulos secciones*/
+h1, .h1 {
+  font-family: roboto condesed;
+  letter-spacing: 1px; }
+
 h2, .h2 {
   color: #748c74;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding-top: 20px; }
+  padding-top: 20px;
+  font-family: roboto condesed;
+  font-size: 2.5rem;
+  letter-spacing: 1px; }
 
 h3, .h3 {
   display: flex;
@@ -7873,7 +7884,9 @@ h3, .h3 {
   color: #748c74;
   margin-top: 10px;
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-family: roboto condesed, monospace;
+  font-size: 2.2rem; }
 
 h4, .h4 {
   font-size: 24px;
