@@ -132,14 +132,7 @@ form p {
     &__imgIndex {
         display: flex;
         align-items: center;
-        margin: 10px;
-        padding: 20px;
-        @include medidas (250px, 250px)
-    }
-
-    &__bordes {
-        border: 1px solid rgb(68, 160, 68);
-
+        height: 300px;
     }
 }
 .botonCarouselDeco {

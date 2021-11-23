@@ -12162,10 +12162,10 @@ h4, .h4 {
   .form {
     width: 100% !important;
   }
+  /* Tablet */
 }
 
-/* Tablet */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (max-width: 480px) and (min-width: 481px) and (max-width: 768px) {
   .footer {
     background-image: linear-gradient(500deg, #949794, #030303);
     background-color: #2a2e2a;
@@ -12185,8 +12185,11 @@ h4, .h4 {
   }
 }
 
-/* Notebook */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (max-width: 480px) {
+  /* Notebook */
+}
+
+@media only screen and (max-width: 480px) and (min-width: 769px) and (max-width: 1024px) {
   .footer {
     background-image: linear-gradient(500deg, #949794, #030303);
     background-color: #2a2e2a;
