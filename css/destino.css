@@ -7874,8 +7874,7 @@ h2, .h2 {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 20px;
-  font-family: roboto condesed;
-  font-size: 2.5rem;
+  font-family: roboto condesed, monospace;
   letter-spacing: 1px; }
 
 h3, .h3 {
@@ -7886,7 +7885,7 @@ h3, .h3 {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: roboto condesed, monospace;
-  font-size: 2.2rem; }
+  font-size: 2.1rem; }
 
 h4, .h4 {
   font-size: 24px;
@@ -7921,6 +7920,13 @@ h4, .h4 {
 .navBar {
   padding: 2px;
   font-size: 18px; }
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 103; }
 
 /* mobile */
 @media only screen and (max-width: 480px) {
@@ -8036,8 +8042,8 @@ form p {
   padding-top: 1rem;
   padding-bottom: 1rem; }
   .caja__parrafo {
-    margin-left: 2rem;
-    margin-right: 2rem; }
+    margin-left: 1.5rem;
+    margin-right: 1.5rem; }
 
 /* Iconos centrales Index */
 .iconos {
