@@ -7851,7 +7851,7 @@ textarea.form-control-lg {
   animation-name: aparecer;
   text-align: center;
   margin-top: 20px;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-style: oblique;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -7911,22 +7911,25 @@ h4, .h4 {
 
 .header {
   background-color: #cff7db;
-  box-shadow: 1px 2px 11px -2px grey;
-  position: sticky; }
+  box-shadow: 1px 2px 11px -2px grey; }
   .header__logo {
     border-radius: 100%;
-    margin-left: 30px; }
+    display: block;
+    margin: auto;
+    margin-top: 20px; }
+  .header .navBar {
+    padding: 2px;
+    font-size: 18px; }
 
-.navBar {
-  padding: 2px;
-  font-size: 18px; }
+#navbarNav {
+  margin-left: 20px; }
 
 .fixed-top {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  z-index: 103; }
+  z-index: 1030; }
 
 /* mobile */
 @media only screen and (max-width: 480px) {
