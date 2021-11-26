@@ -7940,7 +7940,7 @@ h4, .h4 {
   .header__logo {
     margin-left: 120%; }
   .deco {
-    object-fit: cover;
+    object-fit: contain;
     overflow: hidden; }
   main {
     padding-top: 10px; }

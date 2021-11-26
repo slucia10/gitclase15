@@ -22,9 +22,11 @@
     }
 
     .deco {
-        object-fit: cover;
+        object-fit: contain;
         overflow: hidden;
         }
+
+
     main { 
         padding-top: 10px;
     }
