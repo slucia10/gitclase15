@@ -7931,19 +7931,17 @@ h4, .h4 {
 /* mobile */
 @media only screen and (max-width: 480px) {
   h1.titulo, .titulo.h1 {
-    font-size: 3rem; }
+    font-size: 2.6rem; }
   @keyframes aparecer {
     0% {
       opacity: 0; }
     100% {
       opacity: 1; } }
   .header__logo {
-    margin-left: 100%; }
-  .contenedorImg {
-    padding-top: 10px;
-    padding-bottom: 10px; }
-    .contenedorImg__imgIndex {
-      display: flex; }
+    margin-left: 120%; }
+  .deco {
+    object-fit: cover;
+    overflow: hidden; }
   main {
     padding-top: 10px; }
   .iconos {
@@ -8078,16 +8076,10 @@ form p {
     padding-bottom: 10px; }
     .iconos .contenedorImg__imgIndex {
       display: flex;
-      align-items: center;
-      height: 300px; }
-  .iconos .margenDeco {
-    padding-bottom: 60px; }
+      justify-content: center; }
   .iconos .contenedorProductos {
     padding-top: 20px;
     padding-bottom: 20px; }
-    .iconos .contenedorProductos__imgProductos {
-      width: 286px;
-      height: 300px; }
     .iconos .contenedorProductos__borde {
       border: 1px solid #329232;
       box-shadow: 2px 2px 3px 6px rgba(168, 165, 165, 0.2);

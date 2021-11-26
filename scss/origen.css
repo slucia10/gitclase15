@@ -11965,6 +11965,7 @@ fieldset:disabled .btn {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #748c74;
+  font-family: roboto condesed, monospace;
 }
 
 .tituloCarrito {
@@ -11974,6 +11975,7 @@ fieldset:disabled .btn {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #748c74;
+  font-family: roboto condesed, monospace;
 }
 
 .tituloComoComprar {
@@ -11983,6 +11985,7 @@ fieldset:disabled .btn {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #748c74;
+  font-family: roboto condesed, monospace;
 }
 
 .tituloContacto {
@@ -11992,6 +11995,7 @@ fieldset:disabled .btn {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #748c74;
+  font-family: roboto condesed, monospace;
 }
 
 .titulo {
@@ -12001,7 +12005,7 @@ fieldset:disabled .btn {
           animation-name: aparecer;
   text-align: center;
   margin-top: 20px;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-style: oblique;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -12027,12 +12031,19 @@ fieldset:disabled .btn {
 }
 
 /*fin titulos secciones*/
+h1, .h1 {
+  font-family: roboto condesed;
+  letter-spacing: 1px;
+}
+
 h2, .h2 {
   color: #748c74;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 20px;
+  font-family: roboto condesed, monospace;
+  letter-spacing: 1px;
 }
 
 h3, .h3 {
@@ -12046,6 +12057,8 @@ h3, .h3 {
   margin-top: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: roboto condesed, monospace;
+  font-size: 2.1rem;
 }
 
 h4, .h4 {
@@ -12104,11 +12117,14 @@ h4, .h4 {
 }
 
 .header {
-  background-color: #cff7db;
+  background-color: #d7fde3;
   -webkit-box-shadow: 1px 2px 11px -2px grey;
           box-shadow: 1px 2px 11px -2px grey;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 .header__logo {
@@ -12116,9 +12132,16 @@ h4, .h4 {
   margin-left: 30px;
 }
 
-.navBar {
-  padding: 2px;
+.header .navBar {
+  padding: 10px;
   font-size: 18px;
+}
+
+#navbarNav {
+  margin-left: 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 /* mobile */
@@ -12141,6 +12164,26 @@ h4, .h4 {
     100% {
       opacity: 1;
     }
+  }
+  .header__logo {
+    margin-left: 120%;
+  }
+  .contenedorImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  main {
+    padding-top: 10px;
+  }
+  .iconos {
+    margin-right: 30px;
   }
   .footer {
     background-image: linear-gradient(500deg, #949794, #030303);
@@ -12207,6 +12250,10 @@ h4, .h4 {
   .footer__p {
     color: white;
   }
+}
+
+main {
+  margin-top: 140px;
 }
 
 /*formulario CUENTA*/
@@ -12281,104 +12328,90 @@ form p {
 }
 
 .caja__parrafo {
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 /* Iconos centrales Index */
 .iconos {
-  margin-right: 2rem;
-  margin-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.iconos__UnoIndex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  text-align: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  /* imagenes Deco */
+  /* imagenes PRODUCTOS */
+  /* COMO COMPRAR */
 }
 
 .iconos__img {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-left: 2rem;
 }
 
-.iconos__p {
+.iconos__img__p {
   font-size: 18px;
 }
 
-/* imagenes Deco */
-.contenedorImg {
+.iconos .contenedorImg {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.contenedorImg__imgIndex {
+.iconos .contenedorImg__imgIndex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 10px;
-  padding: 20px;
-  width: 250px;
-  height: 250px;
 }
 
-.contenedorImg__bordes {
-  border: 1px solid #44a044;
+.iconos .card {
+  width: 150px;
+  height: 150px;
 }
 
-.botonCarouselDeco {
-  -webkit-padding-end: 5px 10px;
-          padding-inline-end: 5px 10px;
+.iconos .margenDeco {
+  padding-bottom: 60px;
 }
 
-/* imagenes PRODUCTOS */
-.contenedorProductos {
+.iconos .contenedorProductos {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.contenedorProductos__imgProductos {
+.iconos .contenedorProductos__imgProductos {
   width: 286px;
   height: 300px;
 }
 
-.contenedorProductos__borde {
+.iconos .contenedorProductos__borde {
   border: 1px solid #329232;
   -webkit-box-shadow: 2px 2px 3px 6px rgba(168, 165, 165, 0.2);
           box-shadow: 2px 2px 3px 6px rgba(168, 165, 165, 0.2);
   overflow: auto;
 }
 
-.contenedorProductos__p {
+.iconos .contenedorProductos__p {
   font-size: 30px;
   font-style: italic;
   font-family: roboto condesed;
 }
 
-.margenDeco {
-  padding-bottom: 60px;
-}
-
-.margen {
+.iconos .margen {
   margin: 30px;
 }
 
-/* COMO COMPRAR */
-ol {
+.iconos ol {
   color: black;
   margin-left: 20px;
   padding-top: 2rem;
@@ -12387,41 +12420,4 @@ ol {
   list-style-type: decimal;
   font-size: 20px;
 }
-
-/* GRIDS por AREAS */
-.grid-areas {
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "menu menu menu" "cabeza cabeza cabeza" "imagenes imagenes imagenes" "footer footer footer";
-  -ms-grid-columns: 10% auto 15%;
-      grid-template-columns: 10% auto 15%;
-  -ms-grid-rows: 2fr 4fr 4fr 1fr;
-      grid-template-rows: 2fr 4fr 4fr 1fr;
-  grid-gap: 10px;
-  grid-row-gap: 10px;
-}
-
-/* nombre mis areas */
-header {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: cabeza;
-}
-
-nav {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: menu;
-}
-
-#imagenes {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: imagenes;
-}
-
-/* fin nombre areas */
 /*# sourceMappingURL=origen.css.map */
