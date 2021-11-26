@@ -17,17 +17,8 @@
         }
     }
     
-    .header {
-        background-color: #d7fde3;
-        box-shadow: 1px 2px 11px -2px grey;
-    
-        &__logo {
-            border-radius: 100%;
-            margin-left: 30px;
-            display: flex;
-            justify-content: center;
-            
-        }
+    .header__logo {
+       margin-left: 100%;
     }
   
     .contenedorImg {
@@ -38,7 +29,14 @@
            display: flex;
         }
     }
+    main { 
+        padding-top: 10px;
+    }
 
+    .iconos {
+       margin-right: 30px;
+    }
+  
     .footer {
         background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
         background-color: #2a2e2a;
