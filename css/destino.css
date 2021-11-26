@@ -7910,19 +7910,18 @@ h4, .h4 {
     transform: translateX(0); } }
 
 .header {
-  background-color: #cff7db;
+  background-color: #d7fde3;
   box-shadow: 1px 2px 11px -2px grey; }
   .header__logo {
     border-radius: 100%;
-    display: block;
-    margin: auto;
-    margin-top: 20px; }
+    margin-left: 30px; }
   .header .navBar {
-    padding: 2px;
+    padding: 10px;
     font-size: 18px; }
 
 #navbarNav {
-  margin-left: 20px; }
+  margin-left: 20px;
+  justify-content: end; }
 
 .fixed-top {
   position: fixed;
@@ -7940,6 +7939,19 @@ h4, .h4 {
       opacity: 0; }
     100% {
       opacity: 1; } }
+  .header {
+    background-color: #d7fde3;
+    box-shadow: 1px 2px 11px -2px grey; }
+    .header__logo {
+      border-radius: 100%;
+      margin-left: 30px;
+      display: flex;
+      justify-content: center; }
+  .contenedorImg {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .contenedorImg__imgIndex {
+      display: flex; }
   .footer {
     background-image: linear-gradient(500deg, #949794, #030303);
     background-color: #2a2e2a;
@@ -8057,6 +8069,7 @@ form p {
   .iconos__UnoIndex {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: row; }
   .iconos__img {
     align-items: center;
@@ -8073,8 +8086,8 @@ form p {
     align-items: center;
     height: 300px; }
 
-.botonCarouselDeco {
-  padding-inline-end: 5px 10px; }
+.margenDeco {
+  padding-bottom: 60px; }
 
 /* imagenes PRODUCTOS */
 .contenedorProductos {
@@ -8092,9 +8105,6 @@ form p {
     font-style: italic;
     font-family: roboto condesed; }
 
-.margenDeco {
-  padding-bottom: 60px; }
-
 .margen {
   margin: 30px; }
 
@@ -8107,24 +8117,3 @@ ol {
   padding-bottom: 2rem;
   list-style-type: decimal;
   font-size: 20px; }
-
-/* GRIDS por AREAS */
-.grid-areas {
-  display: grid;
-  grid-template-areas: "menu menu menu" "cabeza cabeza cabeza" "imagenes imagenes imagenes" "footer footer footer";
-  grid-template-columns: 10% auto 15%;
-  grid-template-rows: 2fr 4fr 4fr 1fr;
-  grid-gap: 10px;
-  grid-row-gap: 10px; }
-
-/* nombre mis areas */
-header {
-  grid-area: cabeza; }
-
-nav {
-  grid-area: menu; }
-
-#imagenes {
-  grid-area: imagenes; }
-
-/* fin nombre areas */
