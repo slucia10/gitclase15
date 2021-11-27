@@ -81,11 +81,6 @@ form p {
         padding: 1px;
     }
 
-    &__h5 {
-        color: white;
-        font-size: 1rem;
-    }
-
     &__p {
         color: white;
     }
@@ -98,8 +93,13 @@ form p {
     padding-bottom: 1rem;
 
     &__parrafo {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+        font-size: 20px;
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+        padding:8px;
+    font-family: roboto condesed, monospace;
+
+		
     }
 }
 
@@ -112,6 +112,8 @@ form p {
     align-items: stretch;
     text-align: center;
     flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
     &__img {
         padding-left: 2rem;
@@ -126,11 +128,16 @@ form p {
 .contenedorImg {
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     &__imgIndex {
         display: flex;
         justify-content: center;
     }
+}
+.botonCarouselDeco {
+    padding-inline-end: 10px 10px;
 }
 
 

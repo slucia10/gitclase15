@@ -84,34 +84,24 @@
         <h1 class="titulo">¡Bienvenidos a Little Garden! </h1>
         <h2> <strong> Almacen Botanico</strong> </h2>
         <!-- inicio carrousel-->
-        <div class="container">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                </div>
-                <div class="container carousel-inner">
-                    <div class="carousel-item active container-fluid">
-                        <img class="d-bloc img-fluid" src="imagenes/uno.jpg" alt="imagen principal">
-                    </div>
-                    <div class="container carousel-item">
-                        <img class="d-block  img-fluid" src="imagenes/cuatro.jpg" alt="imagen principal">
-                    </div>
-
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="imagenes/uno.jpg" class="d-block w-100" alt="imagen principal">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="imagenes/cuatro.jpg" class="d-block w-100" alt="imagen">
+              </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
             <!-- fin carrousel -->
 
             <h2> Sobre Nosotros</h2>
@@ -125,7 +115,7 @@
                         vida.
                         La deco es un complemento que incorporamos porque creemos que un hogar con detalles nobles y
                         lindos,
-                        nos
+                        no
                         brinda una sensación de bienestar que nos ayuda a vivir más plenamente disfrutando de todos
                         nuestros
                         espacios.
@@ -137,9 +127,8 @@
             <!-- inicio iconos centrales -->
             <div class="container">
                 <div class="iconos">
-
                     <div class="col-4 iconos__img">
-                        <img src="https://img.icons8.com/ios/50/000000/discount--v1.png" />
+                        <img src="https://img.icons8.com/ios/50/000000/cash-app.png"/>
                         <p> <strong> 10% OFF</strong></p>
                         <p class="iconos__p">Por pago via transferencia bancaria</p>
                     </div>
@@ -162,10 +151,10 @@
             <!-- CAROUSEL DECO -->
             <h3> Deco</h3>
 
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div id="carouselExampleDark" class="container carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <section class="container-fluid ">
+                        <section class="container-fluid">
                             <article class="row contenedorImg">
                                 <div class="col-sm-3 col-md-6 col-lg-3">
                                     <div class="card card text-center">
@@ -341,9 +330,8 @@
             </div>
             <!-- FIN CAROUSEL DECO -->
 
-            <!-- INICIO CAROUSEL MACETAS -->
+            <!-- INICIO  MACETAS -->
             <h3> Macetas</h3>
-
             <section class="container margenDeco">
                 <article class="row">
                     <div class="col-sm-3 col-md-6 col-lg-3 ">
@@ -408,7 +396,6 @@
         <img class="img-fluid footer__img" src="https://img.icons8.com/fluency/48/000000/facebook.png" />
         <img class="img-fluid footer__img" src="https://img.icons8.com/fluency/48/000000/instagram-new.png" />
         <img class="img-fluid footer__img" src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" />
-        <h5 class="footer__h5"> Encontranos en Facebook e Instagram</h5>
         <p class="footer__p">Copyright © Little Garden</p>
     </footer>
 
