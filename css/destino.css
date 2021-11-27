@@ -8089,7 +8089,8 @@ form p {
   /* imagenes Deco */
   /* COMO COMPRAR */ }
   .iconos__img {
-    padding-left: 2rem; }
+    padding-left: 2rem;
+    border: 2px  violet; }
     .iconos__img__p {
       font-size: 18px; }
   .iconos .contenedorImg {
@@ -8100,8 +8101,6 @@ form p {
     .iconos .contenedorImg__imgIndex {
       display: flex;
       justify-content: center; }
-  .iconos .botonCarouselDeco {
-    padding-inline-end: 10px 10px; }
   .iconos ol {
     color: black;
     margin-left: 20px;

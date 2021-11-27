@@ -114,9 +114,11 @@ form p {
     flex-direction: row;
     padding-top: 30px;
     padding-bottom: 30px;
+    
 
     &__img {
         padding-left: 2rem;
+        border: 2px  violet;
     
     &__p {
         font-size: 18px;
@@ -135,9 +137,6 @@ form p {
         display: flex;
         justify-content: center;
     }
-}
-.botonCarouselDeco {
-    padding-inline-end: 10px 10px;
 }
 
 
