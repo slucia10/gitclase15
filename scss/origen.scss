@@ -4,6 +4,7 @@
 @import "_titulos";
 @import "_header";
 @import "_responsive";
+@import "_productos";
 
 
 //VARIABLES
@@ -132,25 +133,6 @@ form p {
     }
 }
 
-/* imagenes PRODUCTOS */
-
-.contenedorProductos {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    &__borde {
-        border: 1px solid rgb(50, 146, 50);
-        box-shadow: 2px 2px 3px 6px rgba(168, 165, 165, 0.2);
-        overflow: auto;
-    }
-    &__p {
-        font-size: 30px;
-        font-style: italic;
-        font-family: roboto condesed;
-    }
-}
-.margen {
-    margin: 30px;
-}
 
 
 /* COMO COMPRAR */

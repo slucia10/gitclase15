@@ -7910,7 +7910,7 @@ h4, .h4 {
     transform: translateX(0); } }
 
 .header {
-  background-color: #d7fde3;
+  background-color: #f3d09f;
   box-shadow: 1px 2px 11px -2px grey;
   position: fixed;
   top: 0;
@@ -7938,7 +7938,7 @@ h4, .h4 {
     100% {
       opacity: 1; } }
   .header__logo {
-    margin-left: 120%; }
+    margin-left: 100%; }
   .deco {
     object-fit: contain;
     overflow: hidden; }
@@ -7995,6 +7995,22 @@ h4, .h4 {
       font-size: 0.5rem; }
     .footer__p {
       color: white; } }
+
+/* imagenes PRODUCTOS */
+.contenedorProductos {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .contenedorProductos__borde {
+    border: 1px solid #329232;
+    box-shadow: 2px 2px 3px 6px rgba(168, 165, 165, 0.2);
+    overflow: auto; }
+  .contenedorProductos__p {
+    font-size: 30px;
+    font-style: italic;
+    font-family: roboto condesed; }
+
+.margen {
+  margin: 30px; }
 
 main {
   margin-top: 140px; }
@@ -8065,7 +8081,6 @@ form p {
   text-align: center;
   flex-direction: row;
   /* imagenes Deco */
-  /* imagenes PRODUCTOS */
   /* COMO COMPRAR */ }
   .iconos__img {
     padding-left: 2rem; }
@@ -8077,19 +8092,6 @@ form p {
     .iconos .contenedorImg__imgIndex {
       display: flex;
       justify-content: center; }
-  .iconos .contenedorProductos {
-    padding-top: 20px;
-    padding-bottom: 20px; }
-    .iconos .contenedorProductos__borde {
-      border: 1px solid #329232;
-      box-shadow: 2px 2px 3px 6px rgba(168, 165, 165, 0.2);
-      overflow: auto; }
-    .iconos .contenedorProductos__p {
-      font-size: 30px;
-      font-style: italic;
-      font-family: roboto condesed; }
-  .iconos .margen {
-    margin: 30px; }
   .iconos ol {
     color: black;
     margin-left: 20px;
