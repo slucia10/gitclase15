@@ -85,8 +85,9 @@
     <main>
         <h1 class="tituloCarrito"> Tus Compras</h1>
         <!-- inicio fieldset -->
-        <fieldset class="margen">
-            <legend>Medios de Pago</legend>
+        <div class="container carrito">
+        <fieldset class="texto">
+            <legend> <strong>Medios de Pago</strong> </legend>
             <div>Efectivo</div>
             <input type="radio" name="genero" value="efectivo">
             <div>Tarjetas de Credito</div>
@@ -104,17 +105,18 @@
                 <option value="NARANJA">NARANJA</option>
             </select>
         </fieldset>
-        <fieldset class="margen">
-            <legend>Retiro Por</legend>
+        <fieldset class="texto">
+            <legend> <strong>Retiro Por</strong> </legend>
             <div>OCA Estándar - Retiro por sucursal de OCA</div>
             <input type="radio" name="genero" value="correo Oca">
             <div>SHOWROOM Little Garden Tandil </div>
             <input type="radio" name="genero" value="showroom">
         </fieldset>
         <!-- fin fieldset -->
-        <div class="margen">
+        <div class="texto">
             <a class="btn btn-outline-dark" href="carrito.html" role="button">Finalizar Compra</a>
         </div>
+    </div>
 
         <h4> Sumate a la comunidad #verdevida</h4>
 
