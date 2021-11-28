@@ -287,8 +287,7 @@ form p {
   flex-direction: row;
   padding-top: 30px;
   padding-bottom: 30px;
-  /* imagenes Deco */
-  /* COMO COMPRAR */ }
+  /* imagenes Deco */ }
   .iconos__img {
     padding-left: 2rem;
     border: 2px  violet; }
@@ -302,6 +301,11 @@ form p {
     .iconos .contenedorImg__imgIndex {
       display: flex;
       justify-content: center; }
-  .iconos .comoComprar {
-    font-size: 20px;
-    text-align: center; }
+
+/*SECCION CUIDADOS*/
+.contenedorCuidados {
+  margin-top: 20px;
+  margin-left: 20px; }
+  .contenedorCuidados__img {
+    width: 250px;
+    height: 250px; }

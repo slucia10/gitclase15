@@ -150,12 +150,14 @@ form p {
     }
 }
 
-
-
-/* COMO COMPRAR */
-.comoComprar {
-
-    font-size: 20px;
-    text-align: center;
 }
+ /*SECCION CUIDADOS*/
+ .contenedorCuidados {
+  margin-top: 20px;
+  margin-left: 20px;
+
+  &__img {
+      width: 250px;
+      height: 250px;
+  }
 }
