@@ -17,7 +17,7 @@
   color: #748c74;
   font-family: roboto condesed, monospace; }
 
-.tituloComoComprar {
+.tituloCuidados {
   text-align: center;
   margin-top: 20px;
   font-size: 2rem;
@@ -302,11 +302,6 @@ form p {
     .iconos .contenedorImg__imgIndex {
       display: flex;
       justify-content: center; }
-  .iconos ol {
-    color: black;
-    margin-left: 20px;
-    padding-top: 2rem;
-    padding-left: 3rem;
-    padding-bottom: 2rem;
-    list-style-type: decimal;
-    font-size: 20px; }
+  .iconos .comoComprar {
+    font-size: 20px;
+    text-align: center; }
