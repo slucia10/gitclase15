@@ -127,7 +127,7 @@ h4 {
     100% {
       opacity: 1; } }
   .header__logo {
-    margin-left: 100%; }
+    margin-left: 120%; }
   .caja__parrafo {
     font-size: 16px; }
   .contenedorCuidados {
@@ -311,3 +311,6 @@ form p {
   .contenedorCuidados__img {
     width: 250px;
     height: 250px; }
+
+.card1 {
+  border: none; }
